@@ -1,0 +1,92 @@
+[
+    {
+        "Name":"Ethan Jones",
+        "Date of Birth":"20\/03\/2085",
+        "Course":"T-Level Digital",
+        "Enjoyment Rating":8
+    },
+    {
+        "Name":"Jordan Smith",
+        "Date of Birth":"12\/06\/2009",
+        "Course":"T-Level Digital",
+        "Enjoyment Rating":8
+    },
+    {
+        "Name":"Liam Carter",
+        "Date of Birth":"15\/08\/2006",
+        "Course":"T-Level Digital",
+        "Enjoyment Rating":10
+    },
+    {
+        "Name":"Alex AI",
+        "Date of Birth":"01\/01\/2023",
+        "Course":"BTEC Problem Solving",
+        "Enjoyment Rating":4
+    },
+    {
+        "Name":"Ella Brown",
+        "Date of Birth":"25\/12\/2005",
+        "Course":"A-Levels in English Literature, History, and Psychology",
+        "Enjoyment Rating":8
+    },
+    {
+        "Name":"Ryan Green",
+        "Date of Birth":"10\/07\/2004",
+        "Course":"Media Studies and Film Production",
+        "Enjoyment Rating":7
+    },
+    {
+        "Name":"Sophia White",
+        "Date of Birth":"03\/02\/2005",
+        "Course":"BTEC Health and Social Care",
+        "Enjoyment Rating":9
+    },
+    {
+        "Name":"Luke Taylor",
+        "Date of Birth":"18\/05\/2003",
+        "Course":"Computer Science",
+        "Enjoyment Rating":6
+    },
+    {
+        "Name":"Chloe Davis",
+        "Date of Birth":"08\/11\/2005",
+        "Course":"A-Level Maths, Further Maths, Physics",
+        "Enjoyment Rating":9
+    },
+    {
+        "Name":"Ben Lee",
+        "Date of Birth":"30\/04\/2004",
+        "Course":"Business and Economics",
+        "Enjoyment Rating":8
+    },
+    {
+        "Name":"Lily Roberts",
+        "Date of Birth":"22\/01\/2006",
+        "Course":"A-Level Biology, Chemistry, and Geography",
+        "Enjoyment Rating":7
+    },
+    {
+        "Name":"Max Harris",
+        "Date of Birth":"11\/09\/2005",
+        "Course":"Law",
+        "Enjoyment Rating":8
+    },
+    {
+        "Name":"Isabella Walker",
+        "Date of Birth":"14\/03\/2004",
+        "Course":"BTEC Performing Arts",
+        "Enjoyment Rating":10
+    },
+    {
+        "Name":"Dylan Evans",
+        "Date of Birth":"09\/10\/2003",
+        "Course":"Art and Design",
+        "Enjoyment Rating":7
+    },
+    {
+        "Name":"Grace Cooper",
+        "Date of Birth":"19\/07\/2005",
+        "Course":"A-Level Sociology, Politics, and History",
+        "Enjoyment Rating":9
+    }
+]

@@ -1,0 +1,15 @@
+Provide a welcome message ✅
+Display the entrance ticket prices ✅
+Ask how many adult tickets are required ✅
+Ask how many child tickets are required ✅
+Ask how many senior citizen tickets are required ✅
+Ask how many of the visitors would like wristbands for the rides ✅
+Ask for the lead booker surname (for the ticket) ✅
+Ask if they require a parking pass for the car park ✅
+Display the total cost ✅
+Ask for payment (the machine only accepts £10 and £20 notes, each note entered will need to be counted) ✅
+Display change (if any) ✅
+Print a ticket (display lead booker surname, tickets purchased, wristbands purchased, today’s date*) ✅
+Print a car parking pass (if requested) ✅
+Use data validation techniques to avoid runtime errors through incorrect data entry ✅
+Thank the customer for their purchase ✅
