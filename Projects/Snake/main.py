@@ -99,7 +99,10 @@ def generate_target(snake_body: list, target_locations: list) -> tuple:
             grid.append((x, y))
     
     for part in snake_body:
-        grid.remove(tuple(part))
+        try:
+            grid.remove(tuple(part))
+        except:
+            pass
     
     for target in target_locations:
         grid.remove(tuple(target))
@@ -127,6 +130,7 @@ def draw_snake(snake_head: list, snake_body: list) -> None:
             ))
 
 def step_snake(snake_head: list, snake_body: list, direction: str) -> None:
+    global score
     # Append the current head to the body as the new segment
     snake_body.append(snake_head[:]) # Use a copy of the head
     
@@ -154,6 +158,7 @@ def step_snake(snake_head: list, snake_body: list, direction: str) -> None:
     print(target_locations)
     if tuple(snake_head) in target_locations:
         print("Nom")
+        score += 1
         target_locations.remove(tuple(snake_head))
         snake_body.append(snake_head)
         target_locations.append(generate_target(snake_body, target_locations))
