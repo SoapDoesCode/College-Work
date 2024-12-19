@@ -2,7 +2,7 @@ import datetime # I'm not quite sure why this is imported but it was there befor
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('Task_4A.csv') # read the csv file as df
+df = pd.read_csv('./Task_4A.csv') # read the csv file as df
 
 
 def mainmenu():
@@ -55,7 +55,8 @@ def get_region() -> str:
     valid_region = False # sets default value so loop continues until the input is valid
 
     while not valid_region: # loops until the user inputs a valid region
-        print(f"Valid regions: {", ".join(df['Region'].unique())}") # show the user the valid regions
+        regions_str = ", ".join(df['Region'].unique())
+        print(f"Valid regions: {regions_str}") # show the user the valid regions
         region = input("Please enter the name of the region you would like to check:\nRegion: ")
         region = validate_input(region) # validate and format the user input
         if region in df['Region'].values:
@@ -68,7 +69,8 @@ def get_property_type() -> str:
     valid_type = False # sets default value so loop continues until the input is valid
 
     while not valid_type: # loops until the user inputs a valid property type
-        print(f"Valid property types: {", ".join(df['Property Type'].unique())}") # show the user the valid property types
+        properties_str = ", ".join(df['Property Type'].unique())
+        print(f"Valid property types: {properties_str}") # show the user the valid property types
         property_type = input("Please enter the type of property you would like to check\nProperty Type: ")
         property_type = validate_input(property_type) # validate and format the user input
         if property_type in df['Property Type'].values:
@@ -81,7 +83,8 @@ def get_room_count() -> int:
     valid_room_count = False # sets default value so loop continues until the input is valid
 
     while not valid_room_count: # loops until the user inputs a valid room count
-        print(f"Valid room count: {", ".join(str(count) for count in df['Rooms'].unique())}")
+        room_count_str = ", ".join(str(count) for count in df['Rooms'].unique())
+        print(f"Valid room count: {room_count_str}")
         try:
             room_count = input("Please enter the number of rooms you're looking for\nRoom Count: ") # ask the user for the number of rooms
             room_count = int(room_count) # convert the input to an integer
