@@ -130,7 +130,7 @@ def draw_snake(snake_head: list, snake_body: list) -> None:
             ))
 
 def step_snake(snake_head: list, snake_body: list, direction: str) -> None:
-    global score
+    global score, moving_dir, snake_alive
     # Append the current head to the body as the new segment
     snake_body.append(snake_head[:]) # Use a copy of the head
     
@@ -150,14 +150,14 @@ def step_snake(snake_head: list, snake_body: list, direction: str) -> None:
         or (snake_head[1] >= grid_size[1]
         or (snake_head[1] < 0))
         ):
-        global moving_dir, snake_alive
         moving_dir = None
         snake_alive = False
-
-    print(snake_head)
-    print(target_locations)
+    
+    # print(snake_head)
+    # print(snake_body)
+    # print(target_locations)
     if tuple(snake_head) in target_locations:
-        print("Nom")
+        # print("Nom")
         score += 1
         target_locations.remove(tuple(snake_head))
         snake_body.append(snake_head)
