@@ -1,0 +1,26 @@
+Technical:
+* What is your name?
+* What is your age?
+* Is the layout intuitive and easy to navigate?
+-> if no:
+  * What was wrong with the layout? Why was it not easy to navigate? How would you improve it?
+* How easy was it to find the navigation bar? Do you think the average user would find it easy to use? What are your thoughts on the logo?
+* How would you rate the CSS?
+  * Maintainability?
+  * Readability?
+  * Efficiency?
+  * Reusability?
+* Did input validation work as expected?
+-> if no:
+  * Why did input validation not work as expected? What page/form was it on? What data did you use? What happened?
+
+Non-technical:
+* What is your name?
+* What is your age?
+* Is the layout intuitive and easy to navigate?
+-> if no:
+  * What was wrong with the layout? Why was it not easy to navigate?
+* How easy was it to find the navigation bar? Was it easy to use? What are your thoughts on the logo?
+* Does the website look modern and professional?
+-> if no:
+* What would you say makes it not modern? Why is it unprofessional?

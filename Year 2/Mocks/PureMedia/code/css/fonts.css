@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'yb-font';
+    src: url("fonts/fafner.ttf");
+    ascent-override: 90%;
+    descent-override: 10%;
+    line-gap-override: 0%;
+}
+
+@font-face {
+    font-family: 'event-font';
+    src: url("fonts/RufscriptRegular.ttf");
+}
+
+/* .yb-font {
+    font-family: 'fafner';
+} */

@@ -1,0 +1,92 @@
+.navbar {
+    margin: 0;
+    font-family: "yb-font";
+    overflow: hidden;
+    color: black;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+}
+
+#navbar-title {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.navbar a {
+    font-size: 2rem;
+    text-decoration: none;
+    align-items: center;
+    color: inherit;
+    padding: 0.5em;
+    float: left;
+    text-align: center;
+}
+
+#venues-btn {
+    font-size: 2rem; /* should be the same as `.navbar a` */
+    border: none;
+    font-family: inherit;
+    color: inherit;
+    background-color: inherit;
+    padding: 0.5em;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+#venues-btn i {
+    /* chevron down */
+    font-size: 1.5rem;
+}
+
+#venues-dropdown {
+    overflow: hidden;
+}
+
+.venues-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 0.5em 1em 0 rgba(0, 0, 0, 0.3);
+    z-index: 1;
+}
+
+.venues-content a {
+    display: flex;
+    float: none;
+}
+
+.navbar .navbar-links-left {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-links-right {
+    float: right;
+}
+
+.navbar a:hover,
+#venues-dropdown:hover #venues-btn {
+    background-color: #d6d6d6;
+}
+
+.navbar a:active {
+    background-color: #b3b3b3;
+}
+
+.show {
+    display: block;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-links-left {
+        flex-direction: column;
+    }
+}

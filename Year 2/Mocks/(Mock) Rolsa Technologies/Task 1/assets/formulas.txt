@@ -1,0 +1,5 @@
+Emissions (CO2e) = Energy consumed (kWh) × Carbon intensity (g CO2e/kWh).
+(carbon intensity should be 207)
+
+https://www.formulas.today/formulas/calculate-carbon-footprint-from-car-travel/
+Carbon Footprint (kg CO2) = (Distance (km) / 100) * Fuel Efficiency (L/100 km) * CO2 Emissions per Liter

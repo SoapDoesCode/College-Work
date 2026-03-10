@@ -1,0 +1,25 @@
+h3 {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.trans {
+    color: #696969;
+    list-style-type: none;
+    padding: 0;
+}
+
+.baby_blue {
+    background-color: #5BCEFA;
+}
+
+.baby_pink {
+    background-color: #F5A9B8;
+}
+
+.white {
+    background-color: white;
+}
+
+.trans-shit {
+    display: flex;
+}

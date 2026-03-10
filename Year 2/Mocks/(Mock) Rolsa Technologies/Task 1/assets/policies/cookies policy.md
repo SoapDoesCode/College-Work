@@ -1,0 +1,85 @@
+**Cookies Policy – Rolsa Technologies**
+
+**Last updated: 05/12/2025**
+
+Rolsa Technologies (“Rolsa”, “we”, “us”, or “our”) uses cookies on our website and digital platform to ensure essential features work correctly. This Cookies Policy explains what cookies are, how we use them, and how you can manage your cookie preferences.
+
+---
+
+### 1. What Are Cookies?
+
+Cookies are small text files stored on your device when you visit a website.
+They help websites remember certain information, such as keeping you logged in or storing your session details.
+
+Cookies can be:
+
+* **Session cookies** – removed when you close your browser
+* **Persistent cookies** – remain on your device for a set period
+
+---
+
+### 2. How We Use Cookies
+
+Rolsa Technologies uses only essential cookies.
+These cookies are required for the website and digital platform to function properly and cannot be disabled without affecting core features.
+
+We do not use:
+
+* Tracking cookies
+* Advertising cookies
+* Analytics cookies
+* Third-party marketing cookies
+
+---
+
+### 2.1 Essential Cookies
+
+We use essential cookies for:
+
+* Keeping users logged into their account
+* Maintaining secure sessions across the platform
+* Allowing protected pages (e.g., account dashboards, consultation booking pages, energy tracking tools, and carbon footprint calculator results) to function correctly
+* Storing accessibility preferences where required
+
+Without these cookies, account management, consultation scheduling, and personalised tools such as the energy usage tracker and carbon footprint calculator would not work properly.
+
+---
+
+### 3. No Tracking or Advertising Cookies
+
+Rolsa Technologies does not use cookies to collect personal browsing data, track users across websites, or build advertising profiles.
+
+Your activity on our website is not monitored for marketing purposes.
+
+---
+
+### 4. Managing Cookies
+
+Because our cookies are strictly necessary for the functioning of our website and digital services, they cannot be fully disabled through our site.
+
+However, you can manage or delete cookies through your browser settings by:
+
+* Blocking all cookies
+* Deleting existing cookies
+* Setting permissions per website
+
+Please note:
+If you block essential cookies, you may not be able to log in, book consultations, or use personalised features such as the energy usage tracker.
+
+---
+
+### 5. Changes to This Cookies Policy
+
+We may update this Cookies Policy from time to time. When we do, the “Last updated” date will be revised at the top of this page.
+
+---
+
+### 6. Contact Us
+
+If you have any questions about our use of cookies, contact us:
+
+Rolsa Technologies
+Email: [sophie@rolsa.tech](mailto:sophie@rolsa.tech)
+
+Address: Stafford College, Victoria Square, Stafford, ST16 2QR
+

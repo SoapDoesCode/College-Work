@@ -1,0 +1,67 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1; /* we need this, no delete or i delete myself */
+}
+
+.banner-video {
+    width: 100%;
+    border-bottom: 2px solid black;
+    pointer-events: none;
+}
+
+.events-title {
+    font-family: 'yb-font';
+    font-size: 2rem;
+    align-items: center;
+    margin: 0 0 0.5em;
+    padding: 0.5em;
+    border-bottom: 2px solid black;
+}
+
+div.events {
+    text-align: center;
+    font-family: 'event-font';
+}
+
+div.event {
+    min-width: 200px;
+    max-width: 300px;
+    width: 15%;
+    text-decoration: none;
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    color: black;
+    margin: 2rem;
+}
+
+div.event {
+    transition: 0.2s ease;
+    padding: 25px;
+    border-radius: 10%;
+}
+
+div.event:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.3);
+}
+
+div.event .event-img {
+    width: 100%;
+    border: 2px solid black;
+}
+
+div.event .caption {
+    display: block;
+    font-size: 1.5em;
+    padding: 0 5px;
+}

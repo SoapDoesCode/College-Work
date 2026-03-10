@@ -1,0 +1,83 @@
+﻿Research and familiarisation
+
+
+Client requirements 
+
+
+Functional requirements 
+
+
+
+
+Page on delivering health advice
+Home page
+Navigation to other pages
+Weather forecasting to inform health decisions
+Access to a dashboard for monitoring air quality data
+Login page 
+Register page
+Weather forecasting page
+
+
+
+
+
+
+
+
+Non functional requirements 
+
+
+Follow gdpr guidelines
+Server
+Location tracking 
+Follow Accessibility guidlines wcag
+Error messages
+Dark mode
+
+
+
+
+https://docs.google.com/document/d/11IXMC9u5BdQNjZK-UnHu8eqU1UOkxs9MJN805pOz0r8/edit?usp=sharing
+Risks of not completing the project
+
+
+User health risks due to lack of timely advice
+Loss of credibility and trust
+Financial losses or wasted investment
+Competitive disadvantage
+Legal and compliance risks
+
+debt
+
+Negative impact on reputation
+
+
+
+
+
+Comments on hardware software required for the project
+
+
+Here’s a simple version:
+________________
+
+
+Software
+Operating System
+Web Server
+Database
+Weather and Air Quality APIs
+Code editor.
+Hardware
+PC
+Server
+Mobile Devices for test 
+Air quality sensors
+emerging technologies
+Ai to analyse weather data for more accurate weather predictions
+Sensors to gather weather data
+
+
+How does legislation and regulations affect the project and development of the software
+Legislation and regulations affect the project by requiring that personal data like location health information and login details be collected stored and processed securely with user consent and Accessibility laws mean the software must be usable by people with disabilities such as supporting screen readers and keyboard navigation and Health advice provided by the app may be subject to medical or public health regulations so incorrect advice could create legal liability and Location tracking requires consent and secure handling of geolocation data and Security standards demand secure coding encryption and regular updates and Consumer protection laws require accurate information about the apps capabilities to avoid misleading users and Overall these regulations influence the design development and maintenance of the software and ignoring them can lead to legal financial and reputational risks
