@@ -1,0 +1,93 @@
+.content {
+    margin-top: 3rem;
+}
+
+.account-container {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 3rem;
+}
+
+.section-title {
+    background-color: var(--main-dark-green);
+    color: white;
+    text-align: left;
+    font-size: large;
+    margin: 0;
+    padding: 0.6rem 1rem;
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+#login-form, #register-form {
+    background-color: var(--form-bg-green);
+    border-radius: 24px;
+    text-align: center;
+}
+
+.text-field {
+    margin: 1.3rem 2rem 0 2rem;
+    padding: 0.4rem;
+    border: 1px solid var(--main-dark-green);
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.error-text {
+    display: none;
+    background-color: rgb(255, 255, 169);
+    color: orangered;
+    font-weight: 600;
+    border: 1px double orangered;
+}
+
+.submit-btn {
+    margin: 2rem;
+    padding: 0.5rem;
+    width: 75%;
+    background-color: var(--main-dark-green);
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+}
+
+/*
+✔
+✖
+*/
+
+#register-requirements {
+    text-align: start;
+    list-style: none;
+    color: red;
+    display: none;
+}
+
+/* .pass-req {
+    color: red;
+} */
+
+.pass-req::before {
+    content: "✖ ";
+}
+
+.meets-req {
+    color: green;
+}
+
+.meets-req::before {
+    content: "✖ ";
+}
+
+/* #req-len
+#req-upper
+#req-lower
+#req-num
+#req-symbol */
+
+.show {
+    display: block;
+}

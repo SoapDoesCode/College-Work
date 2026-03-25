@@ -1,0 +1,15 @@
+footer {
+    background-color: #42808b;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-title {
+    font-size: xx-large;
+    display: flex;
+    justify-content: center;
+}

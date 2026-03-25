@@ -1,0 +1,11 @@
+:root {
+    --main-dark-green: #055f33; /* buttons, separators */
+    --main-light-green: #579a34; /* navbar bg, footer bg */
+    --form-bg-green: #cbf5b5;
+    --navbar-bg: #ffffff;
+}
+
+body {
+    margin: 0;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}

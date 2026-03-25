@@ -13,7 +13,7 @@ function _connect_db() {
         // echo "Yay something works!<br>";
     } else {
         die("Connection died: " . pg_last_error());
-        // echo "pg25_233753 tried to swim in lava.<br>";
+        // echo "DB_NAME tried to swim in lava.<br>";
     }
     return $db_handle;
 }

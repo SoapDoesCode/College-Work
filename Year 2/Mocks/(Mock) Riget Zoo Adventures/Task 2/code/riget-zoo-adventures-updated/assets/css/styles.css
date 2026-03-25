@@ -1,0 +1,50 @@
+:root {
+    --rza-green: #10422e;
+    --rza-green-hover: #658119;
+    --rza-green-click: #4d6312;
+    --rza-green-link: #4d6312;
+    --rza-light-green: #4d6312;
+    --rza-light-green-hover: #658119;
+    --rza-light-green-click: #526913;
+    --rza-yellow: #fbddae;
+    --rza-yellow-link: #dda32d;
+    --rza-yellow-link-hover: #FFB92E;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.content {
+    flex: 0 1 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    align-self: flex-start;
+    margin: 2rem 0 0 3rem;
+}
+
+.banner-img {
+    width: 100%;
+    height: auto;
+}
+
+.policy-content h2 {
+    margin: 2rem 3rem;
+}
+
+.policy-content h3,
+.policy-content h4,
+.policy-content strong,
+.policy-content p,
+.policy-content ul li {
+    align-self: flex-start;
+    margin-inline: 3rem;
+}

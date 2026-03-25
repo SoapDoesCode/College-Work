@@ -1,0 +1,32 @@
+.calc-section {
+    text-align: center;
+    padding: 1rem 1.5rem;
+}
+
+.calc-text {
+    max-width: 500px;
+    margin: auto;
+}
+
+.calc-btn {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+    background-color: var(--main-dark-green);
+    padding: 0.75rem 0.75rem;
+	border-radius: 12px;
+    transition: background 120ms ease;
+}
+
+.calc-btn:hover {
+    background-color: color-mix(in srgb, var(--main-dark-green) 70%, black);
+}
+
+.calc-btn:active {
+    background-color: color-mix(in srgb, var(--main-dark-green) 50%, black);;
+}
+
+.separator-img {
+    text-align: center;
+    padding: 2rem 0 2rem 0;
+}

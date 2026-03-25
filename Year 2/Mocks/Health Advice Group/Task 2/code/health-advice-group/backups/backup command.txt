@@ -1,0 +1,2 @@
+To make a backup:
+$ tar -cvf "./backups/HAG v1.tar" --exclude="backups" .

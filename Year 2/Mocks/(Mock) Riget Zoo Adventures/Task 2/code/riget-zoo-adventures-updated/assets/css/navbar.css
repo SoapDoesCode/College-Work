@@ -1,0 +1,57 @@
+#navbar {
+    display: flex;
+    align-items: center; /* align items vertically */
+    text-align: center; /* center any text */
+    background-color: var(--rza-yellow);
+    position: fixed;
+    top: 20px;
+    margin-bottom: 20px;
+    left: 50%; /* middle it */
+    transform: translateX(-50%); /* then move it by half length */
+    /* and by some miracle it is centered!! */
+    border-radius: 16px;
+}
+
+.logo-img {
+    max-width: 4.5em;
+    height: auto;
+    margin: 0.2em;
+}
+
+.div-line {
+    border-left: 2px solid var(--rza-green);
+    align-self: stretch; /* stretches the divider line to the height of the navbar */
+    margin: 0.5em;
+}
+
+.nav-btn, .tickets-btn {
+    text-decoration: none;
+    padding: 0.8em;
+    margin: 0 0.1em;
+    /* margin: 2em; */
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.nav-btn {
+    color: black;
+}
+
+.nav-btn i {
+    font-size: 1.5em;
+}
+
+.tickets-btn {
+    background-color: var(--rza-green);
+    color: white;
+    margin-right: 1em;
+}
+
+.nav-btn:hover, .tickets-btn:hover {
+    background-color: var(--rza-green-hover);
+}
+
+.nav-btn:active, .tickets-btn:active {
+    background-color: var(--rza-green-click);
+}

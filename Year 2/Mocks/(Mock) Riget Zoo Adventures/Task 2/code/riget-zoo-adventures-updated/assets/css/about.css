@@ -1,0 +1,31 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text {
+    max-width: 50%;
+    margin: 0 3rem;
+}
+
+.about-penguin {
+    max-width: 400px;
+    width: 40%;
+    margin: 0 3rem;
+    border: 1px solid black;
+}
+
+.banner-img {
+    margin-top: 6rem;
+}
+
+.company-info {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.company-info span {
+    /* margin-left: 3rem; */
+    margin: 0.6rem 3rem;
+}

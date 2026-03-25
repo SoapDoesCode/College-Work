@@ -1,0 +1,1 @@
+tar --exclude='backups' -I 'zstd -19 -T0' -cf backups/"v1 (2026.02.27).tar.zst" .
